@@ -52,9 +52,6 @@ function generateMarkdown(data) {
 ## Description:
 ${data.description}
 
-# Owned By:
-${data.name}
-
 ## Table of Contents:
 
 * [Installation](#installation)
@@ -62,8 +59,10 @@ ${data.name}
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Questions](#Questions)
 * [Github](#Github)
 * [Email](#Email)
+* [Owner](#Owner)
 
 ## Installation:
 
@@ -85,11 +84,15 @@ ${data.contributing}
 
 ${data.tests}
 
-# Github:
+## Questions
+## Github:
 Please visit my [GitHub](https://github.com/${data.username}) to view my work.
 
-# Email:
-If you have any questions email me directly at ${data.email}. 
+## Email:
+If you have any questions email me directly at ${data.email}.
+
+## Owner:
+${data.name}
 `;
 }
 

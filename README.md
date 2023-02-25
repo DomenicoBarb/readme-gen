@@ -1,10 +1,7 @@
 # README-Gen
 
 ## Description:
-This project utilizes the terminal, node, inquirer and 'fs' to create a README.md!
-
-# Owned By:
-Nico Barberi
+This project utilizes the terminal, node, inquirer and 'fs' to create a README.md using the users inputs!
 
 ## Table of Contents:
 
@@ -13,8 +10,10 @@ Nico Barberi
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Questions](#Questions)
 * [Github](#Github)
 * [Email](#Email)
+* [Owner](#Owner)
 
 ## Installation:
 
@@ -38,8 +37,12 @@ None at this time.
 
 There are currently no tests.
 
-# Github:
+## Questions
+## Github:
 Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
 
-# Email:
-If you have any questions email me directly at domenicoabarberi@gmail.com. 
+## Email:
+If you have any questions email me directly at domenicoabarberi@gmail.com.
+
+## Owner:
+Nico Barberi
