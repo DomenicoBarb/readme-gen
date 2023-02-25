@@ -27,7 +27,7 @@ Type "node index" into the terminal after installing inquirer.
 ![Screenshot of Application](./assets/images/screenshot.png)
 
 ## Video Demo:
-https://user-images.githubusercontent.com/119437696/221332721-39c90ca7-82de-41d3-af26-46fd16cc4b88.mp4
+https://user-images.githubusercontent.com/119437696/221332864-bb0a65b8-cfe2-42d0-84ad-534a32b6bfdc.mp4
 
 ## License
 
