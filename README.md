@@ -24,6 +24,7 @@ Type "npm i inquirer" into the terminal.
 
 Type "node index" into the terminal after installing inquirer.
 
+
 ## License
 
 This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.<br>
