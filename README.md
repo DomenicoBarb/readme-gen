@@ -31,14 +31,14 @@ This project is licensed under the MIT license. Click [here](https://opensource.
 
 ## Contributing:
 
-None for the time being.
+None at this time.
 
 ## Tests:
 
-No tests at this time.
+There are currently no tests.
 
 # Github:
-  Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
+Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
 
 # Email:
 If you have any questions email me directly at domenicoabarberi@gmail.com. 
