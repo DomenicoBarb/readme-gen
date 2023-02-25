@@ -1,44 +1,40 @@
-# readme-gen
+# README-Gen
 
+## Description:
+This project utilizes the terminal, inquirer and 'fs' to create a README.md!
+
+## Table of Contents:
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Installation:
+
+"npm i inquirer" into the terminal.
+
+## Usage:
+
+Type "node index" into the terminal after installing inquirer.
 
 ## License
 
-This project is licensed under the The MIT License license. Click [here]() for more information.
+This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-
-    
-
-## Description
-
-A readme generator
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
-## Installation
-
-npm i inquirer
-
-## Usage
-
-screenshot.png
-
-## Contributing
+## Contributing:
 
 None
 
-## Tests
+## Tests:
 
-yes
+None
 
-## Questions
+# Github:
+  Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
 
-For any questions, please contact me using the information below:
-
-- GitHub: [DomenicoBarb](https://github.com/DomenicoBarb)
-- Email: domenicoabarberi@gmail.com
+# Email:
+If you have any questions email me directly at domenicoabarberi@gmail.com. 
