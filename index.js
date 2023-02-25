@@ -1,67 +1,77 @@
 // TODO: Include packages needed for this application
-const fs = require("fs");
-const inquirer = require("inquirer")
-const generateMarkdown = require("../utils/generateMarkdown")
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
+
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: 'input',
-        name: 'name',
-        message: 'Enter first and last name.'
-      },
-      {
-      type: 'input',
-      name: 'title',
-      message: 'What is the name of the project?'
-      },
-      {
-        type: 'input',
-        name: 'description',
-        message: 'Give a description of the project:'
-      },
-      {
-        type: 'input',
-        name: 'installation',
-        message: 'Describe how to install dependencies required for the project:'
-      },
-      {
-        type: 'input',
-        name: 'usage',
-        message: 'Add screenshot file to the "assets/images" folder and enter the file name here:'
-      },
-      {
-        type: 'input',
-        name: 'contribution',
-        message: 'Who are the contributors on this project?'
-      },
-      {
-        type: 'input',
-        name: 'tests',
-        message: 'What testing was conducted to help develop this project?',
-      },
-      {
-      type: 'list',
-      message: 'Choose a license.',
-      name: 'license',
-      choices: ['The MIT License', 'Apache 2.0 License', 'Mozilla Public License 2.0', 'IBM Public License Version 1.0', 'No License']
-      },
-      {
-        type: 'input',
-        name: 'github',
-        message: 'What is your github username?'
-      },
-      {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?'
-      },
+  {
+    type: 'input',
+    name: 'name',
+    message: 'Enter your first and last name.'
+  },
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Please provide a brief description of your project:',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Please provide installation instructions for your project:',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Please provide usage instructions for your project:',
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Which license do you want to use for your project?',
+    choices: ['MIT', 'Apache 2.0', 'Mozilla 2.0', 'None'],
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Please provide guidelines for contributing to your project:',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Please provide instructions for testing your project:',
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?',
+  },
+  {
+    type: 'input',
+    name: 'username',
+    message: 'What is your GitHub username?',
+  },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('Success! Your README.md file has been generated!')
+  );
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((data) => {
+    const markdown = generateMarkdown(data);
+    writeToFile('README.md', markdown);
+  });
+}
 
 // Function call to initialize app
 init();
