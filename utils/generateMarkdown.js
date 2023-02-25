@@ -89,7 +89,7 @@ ${data.tests}
 If you have any questions email me directly at ${data.email}.
 
 ## Github:
-Please visit my [GitHub](https://github.com/${data.username}) to view my work.
+Please visit my [GitHub](https://github.com/${data.username}) to view my other work.
 
 ## Owner:
 ${data.name}

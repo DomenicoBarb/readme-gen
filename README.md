@@ -42,7 +42,7 @@ There are currently no tests.
 If you have any questions email me directly at domenicoabarberi@gmail.com.
 
 ## Github:
-Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
+Please visit my [GitHub](https://github.com/DomenicoBarb) to view my other work.
 
 ## Owner:
 Nico Barberi
