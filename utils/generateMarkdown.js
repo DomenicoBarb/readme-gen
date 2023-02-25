@@ -11,6 +11,8 @@ function renderLicenseBadge(license) {
       return "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
     case "Mozilla 2.0":
       return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)";
+    case "GPLv2":
+      return "![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)";
     default:
       return "";
   }
@@ -29,6 +31,8 @@ function renderLicenseLink(license) {
       return "https://opensource.org/licenses/Apache-2.0";
     case "Mozilla 2.0":
       return "https://opensource.org/licenses/MPL-2.0";
+    case "GPLv2":
+      return "https://www.gnu.org/licenses/gpl-2.0";
     default:
       return "";
   }
