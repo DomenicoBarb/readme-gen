@@ -76,6 +76,8 @@ ${data.installation}
 
 ${data.usage}
 
+## Screenshot:
+![Screenshot of Application](./assets/images/${data.screenshot})
 
 ${renderLicenseSection(data.license)}<br>
 ${renderLicenseBadge(data.license)}

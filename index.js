@@ -31,6 +31,11 @@ const questions = [
     message: 'Please provide usage instructions for your project:',
   },
   {
+    type: 'input',
+    name: 'screenshot',
+    message: 'Add screenshot file to the "assets/images" folder and enter file name here:'
+  },
+  {
     type: 'list',
     name: 'license',
     message: 'Which license do you want to use for your project?',

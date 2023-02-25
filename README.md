@@ -23,6 +23,8 @@ Type "npm i inquirer" into the terminal.
 
 Type "node index" into the terminal after installing inquirer.
 
+## Screenshot:
+![Screenshot of Application](./assets/images/screenshot.png)
 
 ## License
 
