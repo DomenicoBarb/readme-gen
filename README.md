@@ -1,7 +1,7 @@
 # README-Gen
 
 ## Description:
-This project utilizes the terminal, inquirer and 'fs' to create a README.md!
+This project utilizes the terminal, node, inquirer and 'fs' to create a README.md!
 
 ## Table of Contents:
 
@@ -10,7 +10,8 @@ This project utilizes the terminal, inquirer and 'fs' to create a README.md!
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Github](#Github)
+* [Email](#Email)
 
 ## Installation:
 
@@ -27,11 +28,11 @@ This project is licensed under the MIT license. Click [here](https://opensource.
 
 ## Contributing:
 
-None
+None ATM
 
 ## Tests:
 
-None
+No current tests
 
 # Github:
   Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
