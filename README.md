@@ -26,6 +26,9 @@ Type "node index" into the terminal after installing inquirer.
 ## Screenshot:
 ![Screenshot of Application](./assets/images/screenshot.png)
 
+## Video Demo:
+https://user-images.githubusercontent.com/119437696/221332721-39c90ca7-82de-41d3-af26-46fd16cc4b88.mp4
+
 ## License
 
 This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.<br>
