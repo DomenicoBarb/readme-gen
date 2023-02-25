@@ -3,6 +3,9 @@
 ## Description:
 This project utilizes the terminal, node, inquirer and 'fs' to create a README.md!
 
+# Owned By:
+Nico Barberi
+
 ## Table of Contents:
 
 * [Installation](#installation)
@@ -15,7 +18,7 @@ This project utilizes the terminal, node, inquirer and 'fs' to create a README.m
 
 ## Installation:
 
-"npm i inquirer" into the terminal.
+Type "npm i inquirer" into the terminal.
 
 ## Usage:
 
@@ -23,16 +26,16 @@ Type "node index" into the terminal after installing inquirer.
 
 ## License
 
-This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.
+This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more information.<br>
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Contributing:
 
-None ATM
+None for the time being.
 
 ## Tests:
 
-No current tests
+No tests at this time.
 
 # Github:
   Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
