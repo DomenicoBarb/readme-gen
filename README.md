@@ -11,8 +11,8 @@ This project utilizes the terminal, node, inquirer and 'fs' to create a README.m
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#Questions)
-* [Github](#Github)
 * [Email](#Email)
+* [Github](#Github)
 * [Owner](#Owner)
 
 ## Installation:
@@ -37,12 +37,12 @@ None at this time.
 
 There are currently no tests.
 
-## Questions
-## Github:
-Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
-
+## Questions:
 ## Email:
 If you have any questions email me directly at domenicoabarberi@gmail.com.
+
+## Github:
+Please visit my [GitHub](https://github.com/DomenicoBarb) to view my work.
 
 ## Owner:
 Nico Barberi

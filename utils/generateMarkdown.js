@@ -60,8 +60,8 @@ ${data.description}
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#Questions)
-* [Github](#Github)
 * [Email](#Email)
+* [Github](#Github)
 * [Owner](#Owner)
 
 ## Installation:
@@ -84,12 +84,12 @@ ${data.contributing}
 
 ${data.tests}
 
-## Questions
-## Github:
-Please visit my [GitHub](https://github.com/${data.username}) to view my work.
-
+## Questions:
 ## Email:
 If you have any questions email me directly at ${data.email}.
+
+## Github:
+Please visit my [GitHub](https://github.com/${data.username}) to view my work.
 
 ## Owner:
 ${data.name}
